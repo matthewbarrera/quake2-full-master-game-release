@@ -1,0 +1,28 @@
+clear
+   Type: Operation
+   Description: Clear the console of all text.
+
+cmd
+   Type: Function
+   Description: Send the command and/or parameters to the server.
+   List:
+    o drop (item) - Drop an item from the inventory
+    o give (item) - Give an item to the player
+    o god         - Toggle God mode
+    o kill        - Make the player commit die
+    o notarget    - Toggle the ability of the monsters to detect the player
+
+    + You can use [give health] or [give armor] or [give ammo]
+    + shotgun
+      super shotgun
+      machinegun
+      chaingun
+      grenade launcher
+      rocket launcher
+      hyperblaster
+      railgun
+    + For the BLADES, AXE, SPEAR, and BOW, create new weapon IDs for [give]
+      blades
+      axe
+      spear
+      bow
